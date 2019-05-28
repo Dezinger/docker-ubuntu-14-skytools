@@ -8,7 +8,7 @@ COPY files/ /
 
 RUN \
     apt-get -y update && apt-get install --no-install-recommends -y \ 
-# Install PostgreSQL addons
+# Install
     skytools && \
 # clean
     apt-get -y autoremove && apt-get -y clean && apt-get autoclean && \
